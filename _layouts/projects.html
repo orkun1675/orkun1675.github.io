@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    {{ content }}
+
+    {% assign left = true %}
+    {% for post in site.posts %}
+        <div class="row group">
+            {% if left %}
+                <div class="col c2">
+                    <img src="{{ site.url }}/assets/{{ post.picture }}" alt="{{ post.picture_desc }}">
+                </div>
+            {% endif %}
+        
+            <div class="col post-content c8">
+                <h3 class="post-title">{{ post.title }}</h3>
+                {{ post }}
+            </div>
+
+            {% unless left %}
+                <div class="col c2">
+                    <img src="{{ site.url }}/assets/{{ post.picture }}" alt="{{ post.picture_desc }}">
+                </div>
+            {% endunless %}
+
+            {% if left %}
+                {% assign left = false %}
+            {% else %}
+                {% assign left = true %}
+            {% endif %}
+        </div>
+
+        {% unless forloop.last %}
+            <hr>
+        {% endunless %}
+
+    {% endfor %}
+
+</article>

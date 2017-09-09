@@ -1,6 +1,23 @@
-theme: jekyll-theme-minimal
 title: Orkun Duman
+author: Orkun Duman
 description: Projects & Portfolio
-show_downloads: true
+baseurl: "/"
+url: "https://duman.me"
+lang: en
+timezone: UTC
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
 google_analytics: UA-106178896-1
+markdown: kramdown
+excerpt_separator: "<!-- more -->"
+kramdown:
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
 github: [metadata]
