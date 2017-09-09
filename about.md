@@ -4,6 +4,6 @@ permalink: /
 picture: profile.jpg
 ---
 
-Phasellus faucibus luctus sapien, posuere convallis lorem rhoncus sit amet. Aliquam erat volutpat. Integer posuere tortor ac arcu venenatis bibendum. Nam in orci vestibulum, tempor orci non, luctus tellus. Morbi egestas nibh eu mi fermentum, eget volutpat velit dictum. Sed a ligula erat. Praesent eu imperdiet dolor.
+Hello! I am a junior at UC Berkeley majoring in Computer Science. Despite haven taken all undergraduate Machine Learning classes, I am currently focusing on Networking & Security. I enjoy challenging Software Architecture projects such as designing API's to make further development simpler.
 
-Quisque luctus justo sed est mollis tempus at eleifend eros. Integer vitae nisl sed sem tincidunt cursus. Praesent eros dui, hendrerit id faucibus suscipit, blandit vitae leo. In non pellentesque neque. Nullam sagittis eleifend odio, at congue dolor tempor eu. Cras viverra elit eget nisl fringilla.
+This website serves as a hub to my resume, projects, and blog. I will also be using it as an archive for my past endeavors. I love working on startup projects and am actively looking for job opportunities. So if you want to contact me don't hesitate to [check out my resume](/assets/Orkun Duman - Resume.pdf).
