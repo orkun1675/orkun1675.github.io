@@ -5,6 +5,7 @@ baseurl: "/"
 url: "https://duman.me"
 lang: en
 timezone: UTC
+permalink: pretty
 exclude:
   - Gemfile
   - Gemfile.lock
