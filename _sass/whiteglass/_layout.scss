@@ -66,7 +66,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 20px 0;
 }
 
 .page-heading {
@@ -224,6 +224,7 @@
   .col {
     margin: 5% 0 1% 0%;
   }
+  .col:first-child { margin-top: 0; }  
 }
 
 @include media-query($on-laptop) {
