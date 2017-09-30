@@ -208,6 +208,7 @@
 
     @include media-query($on-laptop) {
       font-size: 22px;
+      margin-bottom: 0;
     }
   }
 
@@ -222,16 +223,31 @@
 
 @include media-query($on-laptop) {
   .col {
-    margin: 5% 0 1% 0%;
+    margin: 2% 0 1% 0%;
   }
-  .col:first-child { margin-top: 0; }  
-}
+  //.col:first-child { margin-top: 0; }  
 
-@include media-query($on-laptop) {
 	.c2, .c3, .c7, .c8 {
     width: 100%;
   }
+
+  .c3 {
+    margin-top: 0;
+  }
+
   .c2 {
     display: none; /* Temporary hack. */
+  }
+}
+
+.date {
+  padding-right: 10px;
+  padding-top: 3.5px;
+  color: $grey-color;
+  text-align: right;
+
+  @include media-query($on-laptop) {
+    padding-top: 2px;
+    text-align: left;
   }
 }

@@ -4,7 +4,7 @@ layout: default
 <article class="post">
 
     <header class="post-header">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <h1 class="post-title">{{ page.title-short | escape }}</h1>
     </header>
 
     {{ content }}
@@ -19,7 +19,15 @@ layout: default
             {% endif %}
         
             <div class="col post-content c8">
-                <h3 class="post-title">{{ post.title }}</h3>
+                <div class="row group">
+                    <div class="col c7">
+                        <h3 class="post-title">{{ post.title }}</h3>
+                    </div>
+                    <div class="col c3">
+                        <h5 class="date">{{ post.date | date_to_long_string }}</h5>                            
+                    </div>
+                </div>
+                
                 {{ post }}
             </div>
 

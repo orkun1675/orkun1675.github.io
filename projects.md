@@ -1,6 +1,7 @@
 ---
 layout: projects
-title: "Projects"
+title: "Orkun Duman - Projects"
+title-short: "Projects"
 permalink: /projects/
 ---
 
