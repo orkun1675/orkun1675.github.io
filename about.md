@@ -1,6 +1,7 @@
 ---
 layout: about
 title: "Orkun Duman - About"
+title-short: "About"
 permalink: /
 picture: profile.jpg
 ---

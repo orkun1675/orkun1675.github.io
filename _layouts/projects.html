@@ -7,10 +7,13 @@ layout: default
         <h1 class="post-title">{{ page.title-short | escape }}</h1>
     </header>
 
-    {{ content }}
+    <div class="opener">
+        {{ content }}
+    </div>
 
     {% assign left = true %}
     {% for post in site.posts %}
+    
         <div class="row group">
             {% if left %}
                 <div class="col c2">
@@ -21,7 +24,7 @@ layout: default
             <div class="col post-content c8">
                 <div class="row group">
                     <div class="col c7">
-                        <h3 class="post-title">{{ post.title }}</h3>
+                        <p class="post-subtitle">{{ post.title }}</p>
                     </div>
                     <div class="col c3">
                         <h5 class="date">{{ post.date | date_to_long_string }}</h5>                            
@@ -45,7 +48,7 @@ layout: default
         </div>
 
         {% unless forloop.last %}
-            <hr>
+            <hr class="divide">
         {% endunless %}
 
     {% endfor %}

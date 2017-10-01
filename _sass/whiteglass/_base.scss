@@ -45,7 +45,7 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 
@@ -100,7 +100,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 10%);
+    color: $brand-color;
   }
 
   &:hover {
@@ -135,6 +135,7 @@ blockquote {
 hr {
   height: 4px;
   margin: $spacing-unit / 2 0;
+  margin-bottom: 25px;
   border: 0;
   background-color: $grey-color-light;
 }

@@ -152,11 +152,23 @@
 
 .post-title {
   font-size: 24px;
+  //margin-bottom: 0px;
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
     font-size: 32px;
+  }
+}
+
+.post-subtitle {
+  font-size: 22px;
+  margin-bottom: 0px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 28px;
   }
 }
 
@@ -196,7 +208,7 @@
 
 .post-content {
   /*margin-bottom: $spacing-unit;*/
-  margin-top: 2%;
+  margin-top: 0;
 
   h2 {
     font-size: 32px;
@@ -246,6 +258,7 @@
 .date {
   padding-right: 10px;
   padding-top: 3.5px;
+  margin-bottom: 0px;
   color: $grey-color;
   text-align: right;
 
@@ -256,5 +269,13 @@
 }
 
 .profile {
-  padding-top: 3px;
+  padding-top: 0;
+}
+
+.divide {
+  margin-bottom: 30px;
+}
+
+.opener {
+  margin-bottom: 25px;
 }
