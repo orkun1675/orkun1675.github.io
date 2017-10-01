@@ -15,10 +15,13 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  //color: #942247;
+  color: rgb(199, 110, 0);
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    //color: #942247;
+    color: rgb(199, 110, 0);
   }
 }
 
@@ -194,7 +197,6 @@
 .post-content {
   /*margin-bottom: $spacing-unit;*/
   margin-top: 2%;
-  padding-top: 10px;
 
   h2 {
     font-size: 32px;
@@ -254,5 +256,5 @@
 }
 
 .profile {
-  padding-top: 9px;
+  padding-top: 3px;
 }
