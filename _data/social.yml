@@ -1,0 +1,10 @@
+main:
+  - alt: "GitHub profile"
+    url: https://github.com/orkun1675
+    img: "/assets/social/github.png"
+  - alt: "LinkedIn profile"
+    url: https://www.linkedin.com/in/orkun1675
+    img: "/assets/social/linkedin.png"
+  - alt: "Behance profile"
+    url: https://www.behance.net/orkun-duman
+    img: "/assets/social/behance.png"
